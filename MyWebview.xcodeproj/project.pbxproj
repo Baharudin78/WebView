@@ -13,6 +13,7 @@
 		F4367DD12848F9D400E0B9F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4367DD02848F9D400E0B9F7 /* Preview Assets.xcassets */; };
 		F4367DDC2848F9D400E0B9F7 /* MyWebviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4367DDB2848F9D400E0B9F7 /* MyWebviewTests.swift */; };
 		F4367DE72848F9D400E0B9F7 /* MyWebviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4367DE62848F9D400E0B9F7 /* MyWebviewUITests.swift */; };
+		F4367DF82848FB7400E0B9F7 /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4367DF72848FB7400E0B9F7 /* Webview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F4367DE22848F9D400E0B9F7 /* MyWebviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWebviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4367DE62848F9D400E0B9F7 /* MyWebviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebviewUITests.swift; sourceTree = "<group>"; };
 		F4367DE82848F9D400E0B9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4367DF72848FB7400E0B9F7 /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F4367DCD2848F9D400E0B9F7 /* Assets.xcassets */,
 				F4367DD22848F9D400E0B9F7 /* Info.plist */,
 				F4367DCF2848F9D400E0B9F7 /* Preview Content */,
+				F4367DF72848FB7400E0B9F7 /* Webview.swift */,
 			);
 			path = MyWebview;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4367DF82848FB7400E0B9F7 /* Webview.swift in Sources */,
 				F4367DCC2848F9D300E0B9F7 /* ContentView.swift in Sources */,
 				F4367DCA2848F9D300E0B9F7 /* MyWebviewApp.swift in Sources */,
 			);
